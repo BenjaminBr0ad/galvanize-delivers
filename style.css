@@ -1,0 +1,18 @@
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#index-banner {
+  background-image: url("img/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 576px) {
+  #logo-container {
+    font-size: 1.25rem;
+  }
+}
