@@ -21,6 +21,7 @@ $(document).ready(function(){
     newBurgerPrice.innerText = "$8.99"
     newBurger.innerText = "Royale with Cheese"
     receipt.appendChild(newRow)
+    M.toast({html: 'Royale with Cheese added to cart!'})
 
     prevSubtotal = Number(subtotal.innerText.slice(1, subtotal.innerText.length-1))
     subtotal.innerText = "$" + Number(prevSubtotal + 8.99).toFixed(2)
@@ -43,6 +44,7 @@ $(document).ready(function(){
     newRibsPrice.innerText = "$14.99"
     newRibs.innerText = "Smoked Swine"
     receipt.appendChild(newRow)
+    M.toast({html: 'Smoked Swine added to cart!'})
 
     prevSubtotal = Number(subtotal.innerText.slice(1, subtotal.innerText.length-1))
     subtotal.innerText = "$" + Number(prevSubtotal + 14.99).toFixed(2)
@@ -65,6 +67,7 @@ $(document).ready(function(){
     newPizzaPrice.innerText = "$11.99"
     newPizza.innerText = "Arugula Pie"
     receipt.appendChild(newRow)
+    M.toast({html: 'Arugula Pie added to cart!'})
 
     prevSubtotal = Number(subtotal.innerText.slice(1, subtotal.innerText.length-1))
     subtotal.innerText = "$" + Number(prevSubtotal + 11.99).toFixed(2)
@@ -87,6 +90,7 @@ $(document).ready(function(){
     newIceCreamPrice.innerText = "$7.99"
     newIceCream.innerText = "Ice Cream Biscuit"
     receipt.appendChild(newRow)
+    M.toast({html: 'Ice Cream Biscuit added to cart!'})
 
     prevSubtotal = Number(subtotal.innerText.slice(1, subtotal.innerText.length-1))
     subtotal.innerText = "$" + Number(prevSubtotal + 7.99).toFixed(2)
