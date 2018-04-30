@@ -16,6 +16,7 @@ $(document).ready(function(){
     let newRow = document.createElement("tr")
     let newBurger = document.createElement("td")
     let newBurgerPrice = document.createElement("td")
+    newBurgerPrice.classList.add("right-align")
     newRow.appendChild(newBurger)
     newRow.appendChild(newBurgerPrice)
     newBurgerPrice.innerText = "$8.99"
@@ -39,6 +40,7 @@ $(document).ready(function(){
     let newRow = document.createElement("tr")
     let newRibs = document.createElement("td")
     let newRibsPrice = document.createElement("td")
+    newRibsPrice.classList.add("right-align")
     newRow.appendChild(newRibs)
     newRow.appendChild(newRibsPrice)
     newRibsPrice.innerText = "$14.99"
@@ -62,6 +64,7 @@ $(document).ready(function(){
     let newRow = document.createElement("tr")
     let newPizza = document.createElement("td")
     let newPizzaPrice = document.createElement("td")
+    newPizzaPrice.classList.add("right-align")
     newRow.appendChild(newPizza)
     newRow.appendChild(newPizzaPrice)
     newPizzaPrice.innerText = "$11.99"
@@ -85,6 +88,7 @@ $(document).ready(function(){
     let newRow = document.createElement("tr")
     let newIceCream = document.createElement("td")
     let newIceCreamPrice = document.createElement("td")
+    newIceCreamPrice.classList.add("right-align")
     newRow.appendChild(newIceCream)
     newRow.appendChild(newIceCreamPrice)
     newIceCreamPrice.innerText = "$7.99"
